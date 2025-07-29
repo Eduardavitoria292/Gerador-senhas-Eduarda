@@ -86,7 +86,7 @@ body{
 }
 
 .parametro-senha-botoes{
-    display: flex
+    display: flex;
     justify-content: center;
 }
 
