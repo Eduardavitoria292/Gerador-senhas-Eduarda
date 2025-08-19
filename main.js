@@ -22,3 +22,12 @@ function aumentaTamanho(){
     numeroSenha.textContent=tamanhoSenha;
     geraSenha();
 }
+
+const campoSenha = document.querySelector('#campo-senha');
+
+const letrasMaisculas  = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+const letrasMinusculas ='abcdefghijklmnopqrstuvwxyz';
+const numeros = '0123456789';
+const simbolos = '!@%?*#+/';
+geraSenha();
+
