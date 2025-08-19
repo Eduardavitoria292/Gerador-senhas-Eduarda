@@ -38,6 +38,6 @@ function geraSenha() {
         numeroAleatorio = Math.floor(numeroAleatorio);
         senha = senha + letrasMaisculas[numeroAleatorio];
     }
-    campoSenha.velue = senha;
+    campoSenha.value = senha;
 }
 
